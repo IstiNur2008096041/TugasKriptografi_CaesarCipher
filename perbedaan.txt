@@ -1,0 +1,5 @@
+Perbedaan
+1. Jika menggunakan modula index dibatasi sesuai array yang dibuat (alphabet). Jadi program tersebut hanya sesuai dengan modula nya (a-z).
+    Algoritmanya untuk yang dengan modula yaitu menambahkan % 26 (jumlah alphabet) maka menjadi (n + key) % 26 untuk (enkripsi) ;  (n - key) % 26 untuk (dekripsi)
+2. Untuk yang tanpa modula, asalkan tidak melebihi indexing alphabet program dapat dijalankan. Tetapi jika melebihi indexing alphabet (a-z) maka akan terjadi error.
+    Algoritma tanpa modula yaitu tinggal menghilangkan % 26 menjadi (n + key) untuk enkripsi dan (n - key) untuk dekripsi
